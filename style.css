@@ -1,0 +1,47 @@
+
+
+#header-img{
+	width:100px;
+	height:100px;
+}
+#nav-bar {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  margin-left:200px;
+  padding: 10px 0;
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  
+}
+@media (max-width: 500px) {
+   body {
+    flex-wrap: wrap;
+  }
+}
+.container{
+	 width: 900px;
+	 height: 150px;
+	 display: inline-block;
+}
+
+.basic{
+  width: 300px;
+  float: left;
+  background-color: lightgrey;
+  height:150px;
+  border: 10px solid green;
+  
+  
+}
+.premium{
+  width: 300px;
+  float: right;
+  background-color: lightgrey;
+  height:150px;
+  border: 10px solid green;
+  margin-right:200px;
+  
+}
